@@ -1,0 +1,178 @@
+export type Language = "en" | "hu" | "sr";
+
+export const translations = {
+  en: {
+    // Navbar
+    home: "Home",
+    gallery: "Gallery",
+    bookNow: "Book Now",
+
+    // Hero
+    heroSubheading: "Professional Makeup Artistry",
+    heroTitle1: "Your Beauty,",
+    heroTitle2: "Elevated",
+    heroDescription: "Bespoke makeup services for weddings, editorials, and every moment that matters.",
+    heroButton: "Book Your Session",
+
+    // Services
+    servicesSubheading: "What We Offer",
+    servicesHeading: "Our Services",
+    bridalTitle: "Bridal Makeup",
+    bridalDesc: "Timeless elegance for your special day. Trial session included.",
+    glamTitle: "Glam Session",
+    glamDesc: "Red carpet-ready looks for events, parties, and photoshoots.",
+    editorialTitle: "Editorial & Creative",
+    editorialDesc: "Bold, artistic looks for fashion shoots and creative projects.",
+
+    // Gallery
+    gallerySubheading: "Our Work",
+    galleryHeading: "Transformations",
+    galleryDescription: "Drag the slider to reveal the before & after of each look.",
+    all: "All",
+    bridal: "Bridal",
+    glam: "Glam",
+    editorial: "Editorial",
+    before: "Before",
+    after: "After",
+    galleryCta: "Love what you see?",
+
+    // Gallery transformations
+    eveningGlam: "Evening Glam",
+    eveningGlamDesc: "Smokey eye with sculpted contour for a gala event.",
+    bridalRadiance: "Bridal Radiance",
+    bridalRadianceDesc: "Soft, romantic bridal look with dewy luminous skin.",
+    editorialBold: "Editorial Bold",
+    editorialBoldDesc: "Vibrant editorial look for a high-fashion photoshoot.",
+
+    // Booking
+    bookingSubheading: "Schedule Your Visit",
+    bookingHeading: "Book a Session",
+    selectService: "Select Service",
+    pickDate: "Pick a Date",
+    chooseDate: "Choose a date",
+    selectTime: "Select Time",
+    name: "Name",
+    yourName: "Your name",
+    email: "Email",
+    confirmBooking: "Confirm Booking",
+    bookingConfirmed: "Booking Confirmed",
+    bookingThankYou: "Thank you, {name}! Your {service} session is booked for {date} at {time}.",
+    fillAllFields: "Please fill in all fields",
+    bookingSuccess: "Booking confirmed!",
+
+    // Footer
+    allRightsReserved: "All rights reserved.",
+  },
+  hu: {
+    home: "Főoldal",
+    gallery: "Galéria",
+    bookNow: "Foglalás",
+
+    heroSubheading: "Professzionális Sminkelés",
+    heroTitle1: "Szépséged,",
+    heroTitle2: "Kiemelve",
+    heroDescription: "Személyre szabott smink szolgáltatások esküvőkre, szerkesztőségi munkákra és minden fontos pillanatra.",
+    heroButton: "Foglalj Időpontot",
+
+    servicesSubheading: "Szolgáltatásaink",
+    servicesHeading: "Szolgáltatások",
+    bridalTitle: "Menyasszonyi Smink",
+    bridalDesc: "Időtlen elegancia a nagy napodra. Próba smink benne van.",
+    glamTitle: "Glamúr Smink",
+    glamDesc: "Vörös szőnyegre kész megjelenés eseményekre, partikra és fotózásokra.",
+    editorialTitle: "Szerkesztőségi & Kreatív",
+    editorialDesc: "Merész, művészi megjelenés divat fotózásokhoz és kreatív projektekhez.",
+
+    gallerySubheading: "Munkáink",
+    galleryHeading: "Átalakulások",
+    galleryDescription: "Húzd a csúszkát az előtte & utána felfedéséhez.",
+    all: "Összes",
+    bridal: "Menyasszonyi",
+    glam: "Glamúr",
+    editorial: "Szerkesztőségi",
+    before: "Előtte",
+    after: "Utána",
+    galleryCta: "Tetszik amit látsz?",
+
+    eveningGlam: "Esti Glamúr",
+    eveningGlamDesc: "Füstös szem szobrászi kontúrral egy gálaeseményre.",
+    bridalRadiance: "Menyasszonyi Ragyogás",
+    bridalRadianceDesc: "Lágy, romantikus menyasszonyi megjelenés harmatosan ragyogó bőrrel.",
+    editorialBold: "Szerkesztőségi Merész",
+    editorialBoldDesc: "Élénk szerkesztőségi megjelenés egy magas divat fotózásra.",
+
+    bookingSubheading: "Időpont Foglalás",
+    bookingHeading: "Foglalj Időpontot",
+    selectService: "Válassz Szolgáltatást",
+    pickDate: "Válassz Dátumot",
+    chooseDate: "Válassz egy dátumot",
+    selectTime: "Válassz Időpontot",
+    name: "Név",
+    yourName: "A neved",
+    email: "Email",
+    confirmBooking: "Foglalás Megerősítése",
+    bookingConfirmed: "Foglalás Megerősítve",
+    bookingThankYou: "Köszönjük, {name}! A {service} foglalásod {date} {time}-ra megerősítve.",
+    fillAllFields: "Kérjük töltsd ki az összes mezőt",
+    bookingSuccess: "Foglalás megerősítve!",
+
+    allRightsReserved: "Minden jog fenntartva.",
+  },
+  sr: {
+    home: "Početna",
+    gallery: "Galerija",
+    bookNow: "Zakaži",
+
+    heroSubheading: "Profesionalno Šminkanje",
+    heroTitle1: "Vaša Lepota,",
+    heroTitle2: "Uzdignuta",
+    heroDescription: "Personalizovane usluge šminkanja za venčanja, editorijale i svaki važan trenutak.",
+    heroButton: "Zakažite Termin",
+
+    servicesSubheading: "Naša Ponuda",
+    servicesHeading: "Usluge",
+    bridalTitle: "Svadbeno Šminkanje",
+    bridalDesc: "Vanvremenska elegancija za vaš poseban dan. Probno šminkanje uključeno.",
+    glamTitle: "Glamurozno Šminkanje",
+    glamDesc: "Izgled spreman za crveni tepih za događaje, zabave i fotografisanje.",
+    editorialTitle: "Editorijal & Kreativno",
+    editorialDesc: "Smele, umetničke vizije za modna fotografisanja i kreativne projekte.",
+
+    gallerySubheading: "Naši Radovi",
+    galleryHeading: "Transformacije",
+    galleryDescription: "Prevucite klizač da otkrijete pre i posle svakog izgleda.",
+    all: "Sve",
+    bridal: "Svadbeno",
+    glam: "Glamur",
+    editorial: "Editorijal",
+    before: "Pre",
+    after: "Posle",
+    galleryCta: "Sviđa vam se?",
+
+    eveningGlam: "Večernji Glamur",
+    eveningGlamDesc: "Zadimlјene oči sa skulpturalnim konturama za gala događaj.",
+    bridalRadiance: "Svadbeni Sjaj",
+    bridalRadianceDesc: "Nežan, romantičan svadbeni izgled sa rosnom sjajnom kožom.",
+    editorialBold: "Editorijal Smelo",
+    editorialBoldDesc: "Živopisan editorijalni izgled za visoku modnu fotografiju.",
+
+    bookingSubheading: "Zakažite Posetu",
+    bookingHeading: "Zakažite Termin",
+    selectService: "Izaberite Uslugu",
+    pickDate: "Izaberite Datum",
+    chooseDate: "Izaberite datum",
+    selectTime: "Izaberite Vreme",
+    name: "Ime",
+    yourName: "Vaše ime",
+    email: "Email",
+    confirmBooking: "Potvrdite Rezervaciju",
+    bookingConfirmed: "Rezervacija Potvrđena",
+    bookingThankYou: "Hvala, {name}! Vaš {service} termin je zakazan za {date} u {time}.",
+    fillAllFields: "Molimo popunite sva polјa",
+    bookingSuccess: "Rezervacija potvrđena!",
+
+    allRightsReserved: "Sva prava zadržana.",
+  },
+} as const;
+
+export type TranslationKey = keyof typeof translations.en;

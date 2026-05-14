@@ -14,8 +14,9 @@ phases:
 
   pre_build:
     commands:
-      - echo Running lint...
-      - npm run lint || true
+      - echo Checking env variables...
+      - echo $VITE_SUPABASE_URL
+      - echo $VITE_SUPABASE_ANON_KEY
 
   build:
     commands:
